@@ -6,3 +6,9 @@ draggables.forEach(draggable => {
         console.log('Drag Start')
     })
 })
+
+containers.forEach(container => {
+    container.addEventListener('drag over', () => {
+        console.log('drag over')
+    })
+})
