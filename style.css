@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    background-color: antiquewhite;
+    justify-content: space-around;
+    align-items: center;
+}
+header{
+    display: flex;
+    justify-content: center;
+}
+.outterdiv{
+    display: flex;
+    justify-content: space-around ;
+    align-items: center;
+    background-color: burlywood;
+    border: solid brown;
+    margin-top: 50px;
+    height: 60vh;
+}
+.container{
+    height: 60vh;
+    width: 20rem;
+    background-color: cornflowerblue;
+    border: solid rgb(8, 53, 90);
+    border-radius: 10px;
+    
+}
+h1{
+    justify-content: space-around;
+    display: flex;
+    color: rgb(192, 35, 35);
+}
+
+.draggable{
+    text-align: center;
+    border-radius: 30px;
+    background-color: rgb(33, 122, 78);
+}
