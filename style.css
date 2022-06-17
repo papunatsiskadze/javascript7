@@ -7,6 +7,9 @@ body{
 header{
     display: flex;
     justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    font-size: x-large;
 }
 .outterdiv{
     display: flex;
@@ -17,12 +20,18 @@ header{
     margin-top: 50px;
     height: 60vh;
 }
+.nums{
+    justify-content: space-around;
+    display: flex;
+    font-size: xx-large;
+}
 .container{
     height: 60vh;
     width: 20rem;
     background-color: cornflowerblue;
     border: solid rgb(8, 53, 90);
     border-radius: 10px;
+
     
 }
 h1{
@@ -35,4 +44,11 @@ h1{
     text-align: center;
     border-radius: 30px;
     background-color: rgb(33, 122, 78);
+}
+.draggable:hover {
+    color: brown;
+    background-color: chocolate;
+}
+.draggable.dragging{
+    opacity: 0.4;
 }
